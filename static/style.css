@@ -1,48 +1,93 @@
-* {
+/** {
 	font-family: "Helvetica Neue Bold", Roboto, Helvetica, Arial, sans-serif;
 	font-weight: 1000;
 	text-align: center;
 	background-color: #7B7573;
 	color: aliceblue;
 }
-
-
-
-h1 {
-	font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
-	font-size: 100px;
-	line-height: 60px;
-	font-weight: 300;
-	color: aquamarine;
+*/
+/*main style*/
+body{
+	margin: 0px;
 }
 
-h2 {
-	font-size: 24px;
-	line-height: 29px;
+.container{
+	display: grid;
+	grid-template-columns: 1fr;
 }
 
-h3 {
-	font-size: 20px;
-	line-height: 23px;
+
+
+
+
+
+
+/*main style*/
+.nav-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 38px;
 
 }
- p {
- 	font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
- 	font-size: 16px;
- 	line-height: 24px;
- 	font-weight: 400;
- }
 
- strong {
- 	font-size: 16px;
-	line-height: 24px;
- }
+.left-side{
+	display:flex;
+}
 
- a {
- 	font-size: 14px;
-    line-height: 17px;
- }
+.nav-wrapper > .left-side > div {
+	margin-right: 30px;
+	font-size: 1em;
+	text-transform: uppercase;
 
-main {
-	margin-top: 10%
+}
+
+.nav-link-wrapper{
+	height: 22px;
+	border-bottom: : 1px solid transparent;
+	transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+	border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+	color: black;
+}
+
+
+/*Portfolio style*/
+.portfolio-items-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper{
+	position: relative;
+}
+
+.portfolio-img-background {
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.img-text-wrapper{
+	position: absolute;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+
 }
