@@ -1,0 +1,65 @@
+/** {
+	font-family: "Helvetica Neue Bold", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 1000;
+	text-align: center;
+	background-color: #7B7573;
+	color: aliceblue;
+}
+*/
+/*main style*/
+.header{
+	background-color: #F1F1F1;
+	text-align: center;
+}
+
+.Testimonials{
+	background-color: orange;
+	text-align: center;
+}
+
+.ethoes{
+	background-color: #ffccff ;
+}
+
+.service{
+	background-color: #ffcccc;
+
+}
+
+.service{
+	background-color: #ffcccc;
+
+}
+
+.enquiryform{
+	background-color: #ccccff;
+	text-align: center;
+	margin: 10px
+}
+
+.column {
+  float: left;
+  width: 50%;
+	background-color: #ccccff;
+}
+
+/* Clear floats after the columns */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+body{
+	margin: 50px;
+}
